@@ -35,7 +35,6 @@ Why
 ===
 
 The __goal__ is to have regular expression parser that would expose streaming API so one could use it like this:
-
 ```javascript
 
 var re = new ReStream('a(bb)+c');
@@ -46,3 +45,4 @@ re.on('match', function(matches){
 	//do something with all the matches here 
 });
 ```
+Native implementation of regexps in JavaScript can't is not streaming, but having such thing might be useful.
