@@ -30,3 +30,19 @@ for (var i = 0, l = sting.length; i < l; i++) {
 // At the step when match occurs console.log will print "abbbbbbbbbbc"
 
 ```
+
+Why
+===
+
+The __goal__ is to have regular expression parser that would expose streaming API so one could use it like this:
+
+```javascript
+
+var re = new ReStream('a(bb)+c');
+
+someStream.pipe(re);
+
+re.on('match', function(matches){
+	//do something with all the matches here 
+});
+```
