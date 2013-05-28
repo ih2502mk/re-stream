@@ -45,4 +45,4 @@ re.on('match', function(matches){
 	//do something with all the matches here 
 });
 ```
-Native implementation of regexps in JavaScript can't is not streaming, but having such thing might be useful.
+Native implementation of regexps in JavaScript is not streaming, but having such thing might be useful.

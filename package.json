@@ -1,0 +1,20 @@
+{
+  "name": "re-stream",
+  "description": "Streaming API for regualr expressions in javascript. (Work in progress).",
+  "tags": [
+    "regular expressions",
+    "regexp"
+  ],
+  "version": "0.0.1",
+  "author": "Ihor Marusyk <ih2502mk@gmail.com>",
+  "engines": {
+    "node" : ">=0.10.3"
+  },
+  "main": "./re-stream",
+  "dependencies": {},
+  "license" : "MIT",
+  "repository" : {
+    "type" : "git", 
+    "url" : "http://github.com/ih2502mk/re-stream"
+  }
+}
