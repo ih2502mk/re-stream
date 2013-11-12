@@ -46,3 +46,11 @@ re.on('match', function(matches){
 });
 ```
 Native implementation of regexps in JavaScript is not streaming, but having such thing might be useful.
+
+ToDo
+====
+
+1. Use Node Srteams for this finally! One of the ways to go would be to create a separate module that builds a streaming parser based on NFA of some certain format. Maybe use node through module for that.
+2. There is a project [debuggex](http://www.debuggex.com), it is closed source but it uses some opensource modules to work one of them is [node-pcre](http://npmjs.org/package/node-pcre) - node bindings for pcre c library. Look into that cause node-pcre lets you save state machine produced by pcre as node buffer. If there is a way to make sence out of that buffer it's definately a way to go.
+3. Alternatively look into [TRE](http://laurikari.net/tre/) to make bindings for that which will be complicated.
+
