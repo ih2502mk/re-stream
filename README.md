@@ -9,8 +9,6 @@ escaping or special characters like `\n`. So this is very limited so far.
 
 The idea is borrowed from http://swtch.com/~rsc/regexp/regexp1.html
 
-BTW It also is not published on NPM.
-
 Usage
 =====
 
